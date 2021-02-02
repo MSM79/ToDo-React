@@ -1,0 +1,12 @@
+span {
+  color: #fff !important;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar span {
+  font-size: 15px !important;
+}
