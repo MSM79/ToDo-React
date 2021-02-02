@@ -1,18 +1,21 @@
 import React from 'react';
 import { PageHeader, Avatar } from 'antd';
 import './style.css';
+import AddTodo from '../AddTodo';
 
 function Header() {
   return (
     <header>
       <PageHeader
-      className="site-page-header"
       title="ToDo"
+      className="site-page-header"
       />
 
+      <AddTodo />
+
       <PageHeader
-      title="Mohammad Marandi"
       className="avatar"
+      title="Mohammad Marandi"
       avatar={
         <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
       }/>
