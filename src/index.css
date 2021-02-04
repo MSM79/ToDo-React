@@ -3,13 +3,30 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
+  font-family: GoogleSans-Reg;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to right top, #1d1f25, #1d202d, #1e2034, #21213b, #252041);
+}
+
+@font-face {
+  font-family: GoogleSans-Bold;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/GoogleSans/GoogleSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: GoogleSans-Med;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/GoogleSans/GoogleSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: GoogleSans-reg;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/GoogleSans/GoogleSans-Regular.ttf);
 }
