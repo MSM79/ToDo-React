@@ -1,12 +1,16 @@
-span {
-  color: #fff !important;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
+h1 {
+  color:#fff !important;
+  font-family: GoogleSans-Bold;
 }
 
 .avatar span {
   font-size: 15px !important;
+}
+
+.time {
+  color: #ededed;
+}
+
+#headerow {
+  height: 100px;
 }
