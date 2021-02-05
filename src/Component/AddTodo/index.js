@@ -23,7 +23,7 @@ class DrawerForm extends React.Component {
     return (
       <>
       <Row>
-        <Button type="primary" onClick={this.showDrawer} danger>
+        <Button type="primary" onClick={this.showDrawer} className="task">
           <PlusOutlined /> New Task
         </Button>
       </Row>

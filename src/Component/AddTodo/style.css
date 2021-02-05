@@ -1,3 +1,5 @@
-.drawer {
-  background: #f45;
+.task {
+  background-image: linear-gradient(to right top, #b132f7, #a331ef, #9430e8, #862fe0, #782dd8) !important;
+  border: none !important;
+  border-radius: 10px !important;
 }
