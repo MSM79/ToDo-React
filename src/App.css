@@ -1,11 +1,8 @@
 .todo {
-  height: 500px;
-  border-radius: 20px;
-  width: 80%;
-  height: 500px;
-  margin: 10px auto;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
+  border-radius: 20px;
+  margin: 60px auto;
+  flex-wrap: wrap;
+  display: flex;
+  width: 80%;
 }

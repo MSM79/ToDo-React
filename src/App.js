@@ -1,8 +1,6 @@
 import React from 'react';
 import Todo from './Component/Todo';
 import Header from './Component/Header';
-
-import { Row, Col } from 'antd';
 import './App.css';
 
 function App() {
@@ -10,9 +8,21 @@ function App() {
     <div>
       <Header />
       <div class="todo">
-        <Todo />
-        <Todo />
-        <Todo />
+        <Todo
+          title="Mesvak"
+          description="Bayad Mesvak Bezanam"
+          time="10:15"
+         />
+        <Todo
+        title="Game"
+        description="blueblueblue"
+        time="11:00"
+        />
+        <Todo
+          title="Coding"
+          description="Todoye Binamoos"
+          time="7:07"
+        />
       </div>
     </div>
   )
