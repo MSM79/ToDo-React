@@ -1,0 +1,117 @@
+.menu {
+  height: 622px;
+  width: 100% !important;
+  /* background-color: rgb(4,8,11,0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); */
+  padding: 10px 15px;
+  border-radius: 20px;
+  /* box-shadow: 0px 4px 9px 0 rgba(0,0,0,0.2); */
+  /* border-right: 2px solid rgba(0,0,0,0.1); */
+}
+
+/* Search Input Style */
+.search input {
+  color: #eee;
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.search input::placeholder {
+  color: #eee;
+}
+
+.search button {
+  background: #5b5b5b;
+  border-color:#5b5b5b;
+}
+
+.search button:hover {
+  color: #fff;
+  border: none;
+  background: #333;
+}
+
+.search svg {
+  color: #fff;
+}
+
+.ant-input:focus {
+  outline: 0;
+  box-shadow: none !important;
+  border-color: transparent !important;
+  border-color: rgba(255,255,255,0.3) !important;
+}
+
+.ant-input:hover {
+  outline: 0;
+  box-shadow: none !important;
+  border-color: rgba(255,255,255,0.2) !important;
+}
+
+/* Menu Item */
+
+.menuItem {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.menuItem a {
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+.menuItem a:hover {
+  color: rgba(255,255,255,0.8);
+}
+
+.menuItem a:active {
+  color: rgba(255,255,255,0.9);
+}
+
+.menuSearch {
+  padding: 15px 15px;
+}
+
+.menuRowInfo {
+  padding: 25px 30px;
+  height: 200px;
+}
+
+.menuRowInfo div {
+  height: auto;
+}
+
+.name {
+  color: #fff;
+  font-family: GoogleSans-Bold;
+  font-size: 19px;
+  margin: 8px 0 0 0 !important;
+}
+
+.email {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.Rowbot {
+  padding: 25px 30px;
+}
+
+.ant-badge-count {
+  border: none !important;
+}
+
+.time {
+  color: #fff;
+  width: 300px;
+}
+
+.timetitle {
+  color: #fff;
+  width: 300px;
+  font-size: 18px;
+  font-family: GoogleSans-Bold;
+  margin-bottom: 0px;
+}
