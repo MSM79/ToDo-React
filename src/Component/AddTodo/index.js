@@ -24,7 +24,7 @@ class DrawerForm extends React.Component {
       <>
       <Row>
         <Button type="primary" onClick={this.showDrawer} className="task">
-          <PlusOutlined /> New Task
+          <PlusOutlined />
         </Button>
       </Row>
         <Drawer
