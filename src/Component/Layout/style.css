@@ -1,0 +1,32 @@
+.ant-layout-header {
+  padding: 0 !important;
+  line-height: 22px !important;
+}
+
+.ant-layout {
+  background: transparent !important;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.allTasksTitle {
+  font-family: GoogleSans-Bold;
+}
+
+.contentRadius {
+  background-color: rgb(255,255,255,0.1);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  height: 600px;
+  width: 90%;
+  border-radius: 20px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 9px 0 rgba(0,0,0,0.1);
+
+}
