@@ -7,7 +7,9 @@
 }
 
 body {
-  background-image: linear-gradient(to right top, #1d1f25, #1d202d, #1e2034, #21213b, #252041);
+  background-image: url(images/tree.jpg),linear-gradient(to right top, #1d1f25, #1d202d, #1e2034, #21213b, #252041);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @font-face {
