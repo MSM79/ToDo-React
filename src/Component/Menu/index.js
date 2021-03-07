@@ -36,7 +36,6 @@ class MenuDrawer extends React.Component {
     return (
       <Col className="menu">
 
-
         <Row>
           <div className="menuRowInfo">
             <Col span={24}>
@@ -66,7 +65,7 @@ class MenuDrawer extends React.Component {
             </Col>
             <Col style={{marginTop:150}}>
               <p class="timetitle">Today's schedule</p>
-              <p class="time">{ weekday[date.getDay()] + ',' + monthNames[date.getMonth()] + ' ' + date.getDay() }</p>
+              <p class="time">{ weekday[date.getDay()] + ',' + monthNames[date.getMonth()] + ' ' + date.getDate() }</p>
             </Col>
         </Row>
       </Col>
