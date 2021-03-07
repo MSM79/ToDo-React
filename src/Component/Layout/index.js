@@ -1,9 +1,11 @@
 import React, { useState }  from 'react';
-import Menu from '../Menu';
-import Todo from '../Todo';
-import AddTodo from '../AddTodo';
 import { Col, Row, Affix, Layout } from 'antd';
+
 import './style.css';
+import Todo from '../Todo';
+import Menu from '../Menu';
+import AddTodo from '../AddTodo';
+
 const { Sider, Content, Footer } = Layout;
 
 function MyLayout() {
@@ -26,36 +28,13 @@ function MyLayout() {
           <Col className="contentRadius">
             <Row align="middle" justify="center">
               <Col xl={24} lg={24} md={24} sm={24} xs={24}>
-                <Todo
-                  title="Mesvak"
-                  time="10:15 AM"
-                  description="salam chetori"
-                  status="success"
-                 />
-                <Todo
-                title="Game"
-                time="11:00 PM"
-                description="salam chetori"
-                status="processing"
-                />
-                <Todo
-                  title="Coding"
-                  time="7:07 PM"
-                  description="salam chetori"
-                  status="warning"
-                />
-                <Todo
-                  title="Coding"
-                  time="7:07 AM"
-                  description="salam chetori"
-                  status="error"
-                />
+                <Todo/>
               </Col>
             </Row>
           </Col>
         </Content>
       </Layout>
-      <Footer style={{background:'transparent', width:200, right:0 ,bottom: 0, position:'absolute'}}>
+      <Footer style={{ background:'transparent', width:200, right:0 ,bottom: 0, position:'absolute' }}>
       <Row style={{height: 75, padding:10}} justify="end" align="middle">
         <Col>
           <Affix offsetTop={top}>
